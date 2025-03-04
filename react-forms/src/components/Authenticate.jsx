@@ -21,8 +21,9 @@ export default function Authenticate({ token }) {
       const result = await response.json();
       setSuccessMessage(result.message);
       console.log(token);
+      console.log(result.message);
     } catch (error) {
-      setError(error.message);
+      setError("Try filling out the form first", error.message);
     }
   }
 
