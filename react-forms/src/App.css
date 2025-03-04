@@ -1,0 +1,63 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(148, 167, 142);
+  color: blue;
+  width: 100%;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(255, 233, 146);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+label {
+  padding: 4px;
+  width: 258.31px;
+}
+
+button {
+  padding-top: 4px;
+}
+
+input {
+  padding-top: 4px;
+}
+
+.submit {
+  padding-top: 4px;
+  margin-top: 7px;
+}
+
+.Auth {
+  margin: 10px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(255, 233, 146);
+}
+p {
+  flex: display;
+  align-items: center;
+  color: red;
+}
